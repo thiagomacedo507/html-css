@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(122, 122, 122);
+
+        }
+
+        header {
+            background-image: linear-gradient(to top, black, red);
+            color: white;
+            padding: 10px;
+            min-height: 150px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        h1 {
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            background-color: brown;
+            border-radius: 4px;
+            padding: 2px;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+            box-shadow: 3px 3px 14px 2px rgba(255, 255, 255, 0.521);
+        }
+
+        nav > a:hover {
+            background-color: rgb(221, 37, 37);
+        }
+
+        main {
+            padding: 10px;
+            margin: 0px auto 30px auto;
+            background-color: white;
+            width: 1000px;
+            
+            box-shadow: 2px 2px 4px rgb(0 0 0 / 50%);
+            
+
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+
+
+        }
+
+        article {
+            background-color: #b6b6b6;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #979797;
+        }
+
+        footer {
+            
+            background-color: brown;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            /*padding: 64px 0px 64px 0px;*/
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            margin: 10px auto 10px auto;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            border: 5px solid black;
+
+
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos"> 
+
+        </section>
+        <section id="noticias">
+            <h1>Notícias</h1>
+            <article>
+                <h2>Notícias Globais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eligendi distinctio, numquam laudantium repellat et placeat provident labore consectetur omnis ducimus sunt aspernatur, quo qui blanditiis inventore optio ea voluptate!</p>
+                <aside>
+                    <p>Artigo escrito por Roberto Alves</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícias Nacionais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, reprehenderit adipisci eveniet commodi at error quos atque sapiente odio pariatur cumque libero. Quam, animi architecto. Ut quam ad laborum perferendis.</p>
+                <aside>
+                    <p>Artigo escrito por Roberto Alves</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido Pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

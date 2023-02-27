@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'horror';
+    src: url(fonts/idroid.otf) format('opentype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'horror2';
+    src: url(fonts/shlop\ rg.ttf) format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: 1em;
+}
+
+header {
+    min-height: 150px;
+    background-image: linear-gradient(to top, #4E2934, black);
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-indent: 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+main {
+    box-shadow: 2px 2px 20px rgba(255, 0, 0, 0.671);
+    border-radius: 0px 0px 10px 10px;
+    width: 1000px;
+    background-color: rgb(202, 202, 202);
+    margin: auto;
+    padding: 20px;
+}
+
+img {
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #4e2934a2;
+    color: white;
+    font-weight: bold;
+}
+
+h1#horror {
+    color: #ffff00;
+    font-size: 50px;
+    font-family: 'horror', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 2px 2px 7px rgba(255, 0, 0, 0.801);
+}
+
+.titulos_secundarios {
+    font-size: 40px;
+    font-family: 'horror2', sans-serif;
+    font-weight: normal;
+    color: rgb(182, 0, 0);
+}
+
+.exibicao {
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+    padding: 10px;
+    font-style: normal;
+}
+
+.link-menu::after {
+    content: none;
+}
+
+a:hover {
+    background-color: #912d4b;
+    border-radius: 3px;
+    color: white;
+}
+
+a:active {
+    background-color: red;
+    color: black;
+}
+
+a::after {
+    content: '🔗';
+}

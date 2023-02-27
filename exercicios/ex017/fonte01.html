@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absulutas: cm, mm, in (polegada), px, pt, pc
+
+            Medidas Relativas: em, ex, rem, vw, vh, %
+
+            "16px" (tamanho padrão) geralmente é igual a um "em"
+            */ 
+            font-size: 1em;
+
+            /* Pesos literais: lighter, normal, bold e bolder / 100, 200, 300, 400, 500, 600, 700, 800 e 900 */          
+        }
+
+        h1 {
+            
+            /* Uma Shorthand font irá condensar todas as configurações
+
+            (Muito Importante, siga essa ordem) Order de inserção: font-style --> font-weight --> font-size --> font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate nam ducimus eaque, eligendi ratione totam, animi, hic fugit ab repellat porro expedita tempore necessitatibus asperiores atque iure molestias explicabo blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quia. Reiciendis ea accusamus impedit placeat nihil debitis, animi optio quaerat ipsum corporis unde nobis dolorum doloremque laudantium sunt nam maxime.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quas similique magnam, deleniti debitis magni itaque sit ducimus laborum totam reprehenderit ipsam sapiente perspiciatis delectus consequatur non! Sequi, veritatis ducimus?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui doloribus veritatis beatae! Commodi excepturi incidunt accusantium voluptas recusandae labore molestiae fugit, dolorem deleniti voluptatibus numquam earum sit officia, at nobis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta sapiente at sit, quia rerum perferendis debitis maxime aliquam. Consequatur quasi repudiandae ipsam nesciunt voluptatem fugit sint dolor provident! Fugiat, nam?</p>
+</body>
+</html>
