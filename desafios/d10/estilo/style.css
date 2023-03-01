@@ -197,10 +197,6 @@ aside abbr {
     text-decoration: none;
 }
 
-aside a {
-    background-color: var(--cor3);
-}
-
 footer {
     background-color: var(--cor5);
     color: white;
