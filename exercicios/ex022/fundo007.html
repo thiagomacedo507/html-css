@@ -6,27 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alinhamento vertical</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         section#container {
             position: relative;
-            height: 94vh;
-            padding: 10px;
+            height: 100vh;
+            
             background-color: purple;
-
-            background-size: 100% 100%;
             background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
         }
 
         article#conteudo {
-            position: absolute;
-            height: 200px;
+            min-height: 200px;
             width: 400px;
-            background-color: yellow;
-
-            background-size: 100% 100%;
-            background-image: url(imagens/target001.png);
-
+            
+            position: absolute;
             left: 50%;
             top: 50%;
+
+            background-color: yellow;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
 
             transform: translate(-50%, -50%);
         }
