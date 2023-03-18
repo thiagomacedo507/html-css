@@ -63,6 +63,10 @@ section.normal {
     color: black;
 }
 
+section.normal > p {
+    padding: 5px;
+}
+
 section.imagem {
     background-color: rgb(61, 61, 61);
     color: white;
